@@ -10,7 +10,7 @@
 <body>
 	<h1>admin</h1>
 	<br>
-	Atributo del modelo: <c:out value="${mensaje}"></c:out><br>
+	Atributo del modelo: <c:out value="${sessionScope.mensaje}"></c:out><br>
 	Atributo del session: <c:out value="${sessionScope.varIndexResultado}"></c:out>
 
 	

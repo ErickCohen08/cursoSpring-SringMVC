@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 
 @Controller
+//@SessionAttributes({"varIndexResultado", "mensaje"})
 @SessionAttributes("varIndexResultado")
 public class indexController {
 	
