@@ -34,7 +34,7 @@ public class IndexController {
 		List<Admin> admins = new ArrayList<Admin>();
 		Timestamp ts = new Timestamp(new Date().getTime());
 		
-		for (int i = 2001; i < 3001; i++) {
+		for (int i = 3001; i < 4001; i++) {
 			admins.add(new Admin("Nombre "+i, "Cargo "+i, ts));
 		}
 		
