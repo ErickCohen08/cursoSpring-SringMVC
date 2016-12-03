@@ -12,6 +12,12 @@
 		expected-type="javax.sql.DataSource">
 	</jee:jndi-lookup>
 	
+	<!-- Configuracion JNDI en el servidor apache -->
+	<!-- <Resource name="jdbc/springJNDI" auth="Container" type="javax.sql.DataSource" -->
+	<!-- 		maxActive="100" maxIdle="30" maxWait="10000" username="root" -->
+	<!-- 		password="erco.123" driverClassName="com.mysql.jdbc.Driver" -->
+	<!-- 		url="jdbc:mysql://localhost:3306/springbd" /> -->
+
 	<!-- Scan Dao -->
 	<context:annotation-config></context:annotation-config>
 	<context:component-scan base-package="com.ercosystems.dao"></context:component-scan>
